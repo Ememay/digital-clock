@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e)
+}
+
+.digital-clock-container {
+    border: 2px solid snow;
+    padding: 5px 15px;
+    min-width: 237px;
+}
+
+.digital-clock-container span {
+    font-size: 50px;
+    color: snow;
+}
